@@ -1,4 +1,7 @@
 Codemalaysia::Application.routes.draw do
+  get "static_pages/finishing_school"
+
+  root 'static_pages#finishing_school'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
