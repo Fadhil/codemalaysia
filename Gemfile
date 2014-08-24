@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.1.2'
+ruby '2.0.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.3'
 
@@ -31,13 +31,16 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+# For static pages
+gem 'high_voltage'
+
 group :development, :test do
   gem 'rspec-rails'
   gem 'sqlite3'
 end
 
 group :production do
-  gem 'pg', '0.15.1'
+  gem 'pg'
   gem 'rails_12factor', '0.0.2'
 end
 

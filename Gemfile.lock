@@ -46,6 +46,7 @@ GEM
       activesupport (>= 4.0.1)
       haml (>= 3.1, < 5.0)
       railties (>= 4.0.1)
+    high_voltage (2.2.1)
     hike (1.2.3)
     i18n (0.6.11)
     jbuilder (1.5.3)
@@ -142,9 +143,10 @@ DEPENDENCIES
   bootstrap-sass (~> 3.2.0)
   coffee-rails (~> 4.0.0)
   haml-rails
+  high_voltage
   jbuilder (~> 1.2)
   jquery-rails
-  pg (= 0.15.1)
+  pg
   rails (= 4.0.3)
   rails_12factor (= 0.0.2)
   rspec-rails
