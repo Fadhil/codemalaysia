@@ -3,6 +3,71 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 body {
-  margin-top: 75px;
+  margin-top: 50px;
 }
 
+.center {
+  text-align: center;
+}
+
+.banner {
+  background: #C23B28;
+  color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: white;
+}
+
+.navbar-inverse .navbar-brand {
+  color: white;
+}
+
+.footer {
+  background: #3c3c3c;
+  color: lightgrey;
+  padding: 20px 0;
+
+  a {
+    color: white;
+    text-decoration: underline;
+  }
+}
+
+.learnmore {
+  margin: -30px 0 15px 0;
+  padding: 20px;
+  background: #f2f2f2;
+  h2 {
+    margin: 10px 0 15px 0;
+  }
+}
+
+.descriptions, .growth {
+  margin-bottom: 15px;
+
+  h4 {
+    font-size: 1.5em;
+    vertical-align: middle;
+  }
+
+  .glyphicon {
+    vertical-align: bottom;
+    margin-right: 10px;
+    font-size: 1.4em;
+  }
+}
+
+@media(min-width:768px) {
+
+  .descriptions {
+    .col-xs-12 {
+      height: 245px;
+
+      .btn-primary {
+        position: absolute;
+        top: 220px;
+      }
+    }
+  }
+}
