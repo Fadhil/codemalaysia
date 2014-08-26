@@ -3,7 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 body {
-  margin-top: 50px;
+  // margin-top: 50px;
 }
 
 .center {
@@ -26,7 +26,7 @@ body {
 .footer {
   background: #3c3c3c;
   color: lightgrey;
-  padding: 20px 0;
+  padding: 20px 18px;
 
   a {
     color: white;
@@ -62,11 +62,11 @@ body {
 
   .descriptions {
     .col-xs-12 {
-      height: 245px;
+      height: 225px;
 
       .btn-primary {
         position: absolute;
-        top: 220px;
+        top: 200px;
       }
     }
   }
