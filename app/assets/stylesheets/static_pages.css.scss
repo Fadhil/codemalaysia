@@ -66,8 +66,12 @@ body {
 
       .btn-primary {
         position: absolute;
-        top: 200px;
+        top: 220px;
       }
     }
   }
+}
+
+.modal-body {
+  padding: 0;
 }

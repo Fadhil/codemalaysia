@@ -1,6 +1,9 @@
 .row
   .cols-xs-12
-    %h1 Tell us what you need
+    - if defined? title
+      %h1= title
+    - else
+      %h1 Tell us what you need
 .row
   .col-xs-12.jumbotron.contact_us_form
     = form_for :request, url: contact_us_path, method: :post do |f|

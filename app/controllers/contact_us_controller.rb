@@ -7,6 +7,9 @@ class ContactUsController < ApplicationController
     render :form, locals: { request_from: 'Project Owner'}
   end
 
+  def collaborate
+  end
+
   def create
     email = params[:request][:email]
     requestor_type = params[:request][:requestor]
