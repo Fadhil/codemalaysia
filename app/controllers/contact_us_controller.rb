@@ -1,13 +1,6 @@
 class ContactUsController < ApplicationController
-  def teacher
-    render :form, locals: { request_from: 'Teacher'}
-  end
-
-  def project_owner
-    render :form, locals: { request_from: 'Project Owner'}
-  end
-
-  def collaborate
+  def form_page
+    render params[:form_page]
   end
 
   def create
