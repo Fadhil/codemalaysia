@@ -1,6 +1,13 @@
 class ContactUsController < ApplicationController
   def form_page
-    render params[:form_page]
+    valid_pages = %w(general collaborate startup)
+
+    the_page = params[:form_page]
+    if valid_pages.include?(the_page)
+      render params[:form_page]
+    else
+      redirect_to root_path
+    end
   end
 
   def create
