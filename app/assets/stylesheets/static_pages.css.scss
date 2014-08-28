@@ -6,13 +6,46 @@ body {
   // margin-top: 50px;
 }
 
+.header-message {
+  background: #3c3c3c;
+  .magic-collaboration {
+    text-align: center;
+    font-size: 12px;
+    color: silver;
+    padding: 10px 0 5px 0;
+    a {
+      color: silver;
+    }
+  }
+}
+
 .center {
   text-align: center;
 }
 
-.banner {
+.container.banner {
+  background: #C23B28;
+  width: 100%;
+  margin-top: -20px;
+  .row {
+    .jumbotron {
+      max-width: 1170px;
+      margin: 0 auto;
+      float: none;
+      padding: 25px 15px 40px 15px;
+    }
+  }
+}
+
+.jumbotron.banner {
   background: #C23B28;
   color: white;
+  margin-top: -20px;
+}
+
+.navbar-inverse {
+  border-radius: 0;
+  border-top: none;
 }
 
 .navbar-inverse .navbar-nav > li > a {

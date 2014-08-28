@@ -1,120 +1,122 @@
-.row
-  .col-xs-12.jumbotron.banner
-    %h1 Codemalaysia
-    %p Programmer Finishing School targets computer science university students in their penultimate and final semesters. The goal of this program is to infuse students with advanced programmer hacks both technical as well as non technical in nature. Students join our sessions to level up as programmers, just in time to impress their new batch of potential suitors.
+.container.banner
+  .row
+    .col-xs-12.jumbotron.banner
+      %h1 Codemalaysia
+      %p Programmer Finishing School targets computer science university students in their penultimate and final semesters. The goal of this program is to infuse students with advanced programmer hacks both technical as well as non technical in nature. Students join our sessions to level up as programmers, just in time to impress their new batch of potential suitors.
 
-    %a.btn.btn-default.btn-lg.btn-cta{href: '#learnmore'} Learn More
+      %a.btn.btn-default.btn-lg.btn-cta{href: '#learnmore'} Learn More
 
-.row
-  .col-xs-12#learnmore
-    %h2.center 4 Students + 1 Senior Programmer x 3 months = 1 Minimum Viable Product
+.container
+  .row
+    .col-xs-12#learnmore
+      %h2.center 4 Students + 1 Senior Programmer x 3 months = 1 Minimum Viable Product
 
-    %h3.center We work with
-
-
-.row-fluid.descriptions
-  .col-xs-12.col-lg-4.col-sm-4.col-md-4.students-description
-    %h4
-      %span.glyphicon.glyphicon-user
-      Students
-
-    %p If you are in your final year and love to code, drop us a note and want to join in this awesome program just drop us a note and we shall see what we can do. Space is seriously limited so do what you gotta do - we will select the most awesome of the awesome.
-
-    %a.btn.btn-primary{href: 'https://docs.google.com/forms/d/1pXvc8U4UJXiE4PCAJhqLiJdK9rX3WTR-Sm0a54tLtSY/viewform'} I Want In!
-
-  .col-xs-12.col-lg-4.col-sm-4.col-md-4.universities-description
-    %h4
-      %span.glyphicon.glyphicon-tower
-      Universities
-
-    %p If you are a lecturer and think there are some pretty amazing students in your class that would be that more amazing if they had a chance to join our completely free training program, you should forward this flyer to them and ask them to apply. 
-
-    %a.btn.btn-primary{href: contact_form_path(:collaborate) } How Do I Get Involved?
-
-  .col-xs-12.col-lg-4.col-sm-4.col-md-4.startups-description
-    %h4
-      %span.glyphicon.glyphicon-send
-      Startups
-
-    %p Everyone's got ideas, and if you can prove to us the market wants them drop us a line and we will take it under consideration. We are looking for early stage ideas.
-
-    %p Remember - don't pitch an idea to us, pitch a product that people want.
-
-    %a.btn.btn-primary{href: contact_form_path(:startup)} I Want an MVP
-
-%br{style: "clear: both;"}
-
-.row-fluid.growth
-  .col-xs-12.page-header
-    %h2.center Growth Areas
-
-  .container-fluid
-    .row
-      .col-xs-12.col-sm-4.col-md-4.col-lg-4
-        %h4
-          %span.glyphicon.glyphicon-cog
-          Technical
-        %p The focus for this training session will be how to use ruby on rails to build web applications. Most of the learnings will be based on the rails tutorial by Michael Hartl
-
-      .col-xs-12.col-sm-4.col-md-4.col-lg-4
-        %h4
-          %span.glyphicon.glyphicon-heart
-          Personal
-        %p Learn how to learn, how to apply creative thinking to solve problems and most importantly how to communicate all these awesome skills to other people.
-
-      .col-xs-12.col-sm-4.col-md-4.col-lg-4
-        %h4
-          %span.glyphicon.glyphicon-share
-          Social
-        %p The MVP will be created in an Agile manner, so participants will learn how to participate in scrums, standing meetings and other collaborative methodologies such as pair programming.
-
-%br{style: "clear: both;"}
-
-.row.footer
-  .col-xs-12.col-md-4.col-lg-4.col-sm-4
-    %h4 Locate Us
-
-    %p
-      %b Makespace
-      %br
-      Lot 1-50, SS-Two Mall
-      %br
-      Jalan SS 2/72, Seksyen 19
-      %br
-      Petaling Jaya Selangor Malaysia
-      %br
-      %br
-      %a{href: 'http://waze.to/osrenU3mAiRFlWZ9Y6'} Click for Directions
-      %br
-      %br
-      +60 3 7931 9198
-      %br
-      %br
-      Work with us
-      %br
-      Hello
-      %a{href: 'http://tandemic.com'} tandemic
-      %br
-      Supported by
-      %a{href: 'http://mymagic.com.my'} MaGIC
+      %h2.center We work with
 
 
-  .col-xs-12.col-md-8.col-lg-8.col-sm-8
-    %h4 Serving A Target Market
+  .row.descriptions
+    .col-xs-12.col-lg-4.col-sm-4.col-md-4.students-description
+      %h4
+        %span.glyphicon.glyphicon-user
+        Students
 
-    %p Codemalaysia is a community experiment managed by the guys that run makespace.my a resource and community gathering space for people who make stuff (often pretty cool stuff we might add). We figured that code is a great way to create, you learn some basics and then you start, continuing your learning as you make you get better and better along the way. Its pretty amazing what you can accomplish with a little bit of skill when it comes to computer programming.
+      %p If you are in your final year and love to code, drop us a note and want to join in this awesome program just drop us a note and we shall see what we can do. Space is seriously limited so do what you gotta do - we will select the most awesome of the awesome.
 
-    %p We won't get into the other wonderful benefits such as teaching you to think and helping you better understand the landscape of the technical world we live in - for now lets just focus on the fact that with a little code you can do a lot of amazing things.
+      %a.btn.btn-primary{href: 'https://docs.google.com/forms/d/1pXvc8U4UJXiE4PCAJhqLiJdK9rX3WTR-Sm0a54tLtSY/viewform'} I Want In!
 
--# .modal.fade#collaborate{role: :dialog, "aria-hidden" => :true}
--#   .modal-dialog.modal-md
--#     .modal-content
--#       .modal-header
--#         %button{:type => :button, :class => :close, "data-dismiss" => :modal}
--#           %span{"aria-hidden" => :true} &times;
--#           %span.sr-only Close
--#         %h4.modal-title Collaborate with Us
--#       .modal-body
--#         =image_tag('PFS-Gemcutters-01-01.jpg')
--#       .modal-footer
--#         %button.btn.btn-default{:type => :button, "data-dismiss" => :modal} Close
+    .col-xs-12.col-lg-4.col-sm-4.col-md-4.universities-description
+      %h4
+        %span.glyphicon.glyphicon-tower
+        Universities
+
+      %p If you are a lecturer and think there are some pretty amazing students in your class that would be that more amazing if they had a chance to join our completely free training program, you should forward this flyer to them and ask them to apply. 
+
+      %a.btn.btn-primary{href: contact_form_path(:general) } How Do I Get Involved?
+
+    .col-xs-12.col-lg-4.col-sm-4.col-md-4.startups-description
+      %h4
+        %span.glyphicon.glyphicon-send
+        Startups
+
+      %p Everyone's got ideas, and if you can prove to us the market wants them drop us a line and we will take it under consideration. We are looking for early stage ideas.
+
+      %p Remember - don't pitch an idea to us, pitch a product that people want.
+
+      %a.btn.btn-primary{href: contact_form_path(:startup)} I Want an MVP
+
+  %br{style: "clear: both;"}
+
+  .row.growth
+    .col-xs-12.page-header
+      %h2.center Growth Areas
+
+    .container-fluid
+      .row
+        .col-xs-12.col-sm-4.col-md-4.col-lg-4
+          %h4
+            %span.glyphicon.glyphicon-cog
+            Technical
+          %p The focus for this training session will be how to use ruby on rails to build web applications. Most of the learnings will be based on the rails tutorial by Michael Hartl
+
+        .col-xs-12.col-sm-4.col-md-4.col-lg-4
+          %h4
+            %span.glyphicon.glyphicon-heart
+            Personal
+          %p Learn how to learn, how to apply creative thinking to solve problems and most importantly how to communicate all these awesome skills to other people.
+
+        .col-xs-12.col-sm-4.col-md-4.col-lg-4
+          %h4
+            %span.glyphicon.glyphicon-share
+            Social
+          %p The MVP will be created in an Agile manner, so participants will learn how to participate in scrums, standing meetings and other collaborative methodologies such as pair programming.
+
+  %br{style: "clear: both;"}
+
+  .row.footer#footer
+    .col-xs-12.col-md-4.col-lg-4.col-sm-4
+      %h4 Locate Us
+
+      %p
+        %b Makespace
+        %br
+        Lot 1-50, SS-Two Mall
+        %br
+        Jalan SS 2/72, Seksyen 19
+        %br
+        Petaling Jaya Selangor Malaysia
+        %br
+        %br
+        %a{href: 'http://waze.to/osrenU3mAiRFlWZ9Y6'} Click for Directions
+        %br
+        %br
+        +60 3 7931 9198
+        %br
+        %br
+        %a{href: contact_form_path(:collaborate)} Work with us
+        %br
+        Hello
+        %a{href: 'http://tandemic.com'} tandemic
+        %br
+        Supported by
+        %a{href: 'http://mymagic.com.my'} MaGIC
+
+
+    .col-xs-12.col-md-8.col-lg-8.col-sm-8
+      %h4 About Us
+
+      %p Codemalaysia is a community experiment managed by the guys that run makespace.my a resource and community gathering space for people who make stuff (often pretty cool stuff we might add). We figured that code is a great way to create, you learn some basics and then you start, continuing your learning as you make you get better and better along the way. Its pretty amazing what you can accomplish with a little bit of skill when it comes to computer programming.
+
+      %p We won't get into the other wonderful benefits such as teaching you to think and helping you better understand the landscape of the technical world we live in - for now lets just focus on the fact that with a little code you can do a lot of amazing things.
+
+  -# .modal.fade#collaborate{role: :dialog, "aria-hidden" => :true}
+  -#   .modal-dialog.modal-md
+  -#     .modal-content
+  -#       .modal-header
+  -#         %button{:type => :button, :class => :close, "data-dismiss" => :modal}
+  -#           %span{"aria-hidden" => :true} &times;
+  -#           %span.sr-only Close
+  -#         %h4.modal-title Collaborate with Us
+  -#       .modal-body
+  -#         =image_tag('PFS-Gemcutters-01-01.jpg')
+  -#       .modal-footer
+  -#         %button.btn.btn-default{:type => :button, "data-dismiss" => :modal} Close

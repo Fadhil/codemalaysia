@@ -9,14 +9,13 @@
     = form_for :request, url: contact_us_path, method: :post do |f|
       .row
         .input-group
-          %span.input-group-addon @
-          = f.text_field :email, placeholder: 'Email', size: 50, class: 'form-control'
+          = f.text_field :email, placeholder: 'Your email address', size: 50, class: 'form-control'
       %br
       .row
         .input-group
-          = f.text_area :body, rows: 5,cols:80, class: 'form-control'
+          = f.text_area :body, rows: 5, cols: 52, class: 'form-control', placeholder: 'Your message'
       = f.hidden_field :requestor, value: request_from
       %br
       .row
-        = f.submit 'Send', class: 'btn-primary'
+        = f.submit 'Send', class: 'btn btn-primary'
 
