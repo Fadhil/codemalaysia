@@ -37,6 +37,17 @@ body {
   }
 }
 
+.container#footer {
+  background: #3c3c3c;
+  width: 100%;
+  .row.footer {
+    max-width: 1170px;
+    margin: 0 auto;
+    float: none;
+    padding: 25px 0;
+  }
+}
+
 .jumbotron.banner {
   background: #C23B28;
   color: white;
