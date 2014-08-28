@@ -9,11 +9,12 @@
     = csrf_meta_tags
   %body
     %header
-      .header-message
-        .magic-collaboration
-          In collaboration with
-          %a{href: "http://mymagic.my/"}
-            = image_tag('magic.png', width: '90')
+      %nav.navbar.navbar-default.navbar.navbar-inverse.navbar-fixed-top.magic
+        .container
+          .center
+            In collaboration with
+            %a{href: "http://mymagic.my/"}
+              = image_tag('magic.png', width: '90')
       = render 'layouts/navigation'
     %main{:role => "main"}
       = yield

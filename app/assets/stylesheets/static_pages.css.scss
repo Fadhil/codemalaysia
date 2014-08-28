@@ -3,20 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 body {
-  // margin-top: 50px;
-}
-
-.header-message {
-  background: #3c3c3c;
-  .magic-collaboration {
-    text-align: center;
-    font-size: 12px;
-    color: silver;
-    padding: 10px 0 5px 0;
-    a {
-      color: silver;
-    }
-  }
+  margin-top: 30px;
 }
 
 .center {
@@ -65,6 +52,19 @@ body {
 
 .navbar-inverse .navbar-brand {
   color: white;
+}
+
+.magic {
+  min-height: 30px;
+  height: 30px;
+  background: #3c3c3c;
+  .container { 
+    .center {
+      font-size: 12px;
+      color: silver;
+      padding: 5px 0 0 0;
+    }
+  }
 }
 
 .footer {
