@@ -1,4 +1,9 @@
-%nav.navbar.navbar-default.navbar.navbar-inverse
+%nav.navbar.navbar-default.navbar.navbar-inverse.navbar-fixed-top
+  .container.magic
+    .center
+      In collaboration with
+      %a{href: "http://mymagic.my/"}
+        = image_tag('magic.png', width: '90')
   .container
     .navbar-header
       %button.navbar-toggle{"data-target" => ".navbar-collapse", "data-toggle" => "collapse", :type => "button"}

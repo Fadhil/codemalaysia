@@ -19,12 +19,6 @@
 
   %body
     %header
-      %nav.navbar.navbar-default.navbar.navbar-inverse.navbar-fixed-top.magic
-        .container
-          .center
-            In collaboration with
-            %a{href: "http://mymagic.my/"}
-              = image_tag('magic.png', width: '90')
       = render 'layouts/navigation'
     %main{:role => "main"}
       = yield
