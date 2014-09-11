@@ -4,6 +4,7 @@ Codemalaysia::Application.routes.draw do
   get "location"              => 'high_voltage/pages#show', id: "location"
   get "collaborate"           => 'high_voltage/pages#show', id: "collaborate"
   get "learn"                 => 'high_voltage/pages#show', id: "learn"
+  get 'schedule'              => 'high_voltage/pages#show', id: 'schedule'
 
   resource :contact_us, only: [ :create]
   root to: 'high_voltage/pages#show', id: 'index'
