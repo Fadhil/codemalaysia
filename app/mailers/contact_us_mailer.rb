@@ -10,7 +10,7 @@ class ContactUsMailer < ActionMailer::Base
     @content= content_body
     @sender = from_email
     @requestor_type = requestor_type
-    mail from: from_email, to: 'contact@codemalaysia.com', subject: 'test'
+    mail from: from_email, to: 'contact@codemalaysia.com', subject: 'PFS general enquiry'
   end
 
 end
