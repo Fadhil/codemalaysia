@@ -2,4 +2,10 @@
   .row.center
     .col-xs-12.page-header
       %h2 Become Awesome with Us
-      =image_tag('pfs-poster.jpg')
+
+      %br
+
+      %p.text-centered
+        = link_to 'Sign Up Now!', contact_form_path(form_page: :collaborate), class: "btn btn-success btn-lg"
+
+      =image_tag('pfs-poster.jpg', class: "img-responsive")
