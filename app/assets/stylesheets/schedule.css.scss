@@ -1,5 +1,10 @@
 table#schedule {
   td {
     text-align: left;
+    &.divider {
+      background: #3c3c3c;
+      color: white;
+      border: 1px solid #3c3c3c;
+    }
   }
 }
