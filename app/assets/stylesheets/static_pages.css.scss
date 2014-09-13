@@ -13,13 +13,17 @@ body {
 .container.banner {
   background: #C23B28;
   width: 100%;
-  margin-top: -20px;
+  // margin-top: -20px;
+  padding-bottom: 20px;
   .row {
     .jumbotron {
       max-width: 1170px;
       margin: 0 auto;
       float: none;
       padding: 25px 15px 40px 15px;
+      .promovideo {
+        vertical-align: middle;
+      }
     }
   }
 }
