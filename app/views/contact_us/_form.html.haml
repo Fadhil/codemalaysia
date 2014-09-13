@@ -5,15 +5,15 @@
     - else
       %h1 Tell us what you need
 .row
-  .col-xs-12.jumbotron.contact_us_form
+  .contact_us_form.well.col-xs-12.col-lg-5.col-md-6.col-sm-6
     = form_for :request, url: contact_us_path, method: :post do |f|
       .row
-        .input-group
-          = f.text_field :email, placeholder: 'Your email address', size: 50, class: 'form-control'
+        .input-group.col-xs-12
+          = f.text_field :email, placeholder: 'Your email address', class: 'form-control'
       %br
       .row
-        .input-group
-          = f.text_area :body, rows: 5, cols: 52, class: 'form-control', placeholder: 'Your message'
+        .input-group.col-xs-12
+          = f.text_area :body, rows: 5, class: 'form-control', placeholder: 'Your message'
       = f.hidden_field :requestor, value: request_from
       %br
       .row
