@@ -117,12 +117,52 @@ body {
   }
 }
 
+@media(min-width:400px) {
+  .descriptions {
+    .col-xs-12 {
+      height: auto;
+
+      .btn-primary {
+        position: relative;
+        top: auto;
+      }
+    }
+    margin-bottom: auto;
+  }
+}
+
 @media(min-width:768px) {
 
   .descriptions {
     .col-xs-12 {
       height: 225px;
 
+      .btn-primary {
+        position: absolute;
+        top: 340px;
+      }
+    }
+    margin-bottom: 100px;
+  }
+}
+
+@media(min-width:992px) {
+
+  .descriptions {
+    .col-xs-12 {
+      height: 225px;
+
+      .btn-primary {
+        position: absolute;
+        top: 260px;
+      }
+    }
+  }
+}
+
+@media(min-width:1200px) {
+  .descriptions {
+    .col-xs-12 {
       .btn-primary {
         position: absolute;
         top: 220px;
