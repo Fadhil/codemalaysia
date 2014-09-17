@@ -4,123 +4,272 @@
       %h2 What we'll be doing
       / <iframe src="https://www.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=rt1q6ca6olmm59vrechong8l68%40group.calendar.google.com&amp;color=%2328754E&amp;ctz=Asia%2FKuala_Lumpur" style=" border-width:0 " width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
-      %p.lead
-        The Finishing School course is divided into two components &mdash;
-        %b full-time, hands-on for the first month
-        and remote-working for months 2 &amp; 3
+      .container.schedule.text-left
+        .row
+          .col-xs-12
+            %h4 Week 1 (29th September — 3rd October 2014)
+          .schedule-class.col-xs-12.col-lg-3.col-sm-10.col-md-8
+            %ul.list-group
+              %li.list-group-item.active
+                %span.glyphicon.glyphicon-user
+                On-site
+              %li.list-group-item Cloud 9 setup
+              %li.list-group-item Rails CLI Introduction
+              %li.list-group-item Rails Routing Introduction
+              %li.list-group-item Rails MVC introduction
+              %li.list-group-item Static pages
+          .schedule-class.col-xs-12.col-lg-3.col-sm-10.col-md-8
+            %ul.list-group
+              %li.list-group-item.active
+                %span.glyphicon.glyphicon-home
+                Remote
+              %li.list-group-item Static pages
+              %li.list-group-item Routes
+              %li.list-group-item Application design & specification
+          .schedule-class.col-xs-12.col-lg-3.col-sm-10.col-md-8
+            %ul.list-group
+              %li.list-group-item.active
+                %span.glyphicon.glyphicon-user
+                On-site 
+              %li.list-group-item User Stories on Trello
+              %li.list-group-item Generate User MVC
+              %li.list-group-item Model validation
+          .schedule-class.col-xs-12.col-lg-3.col-sm-10.col-md-8
+            %ul.list-group
+              %li.list-group-item.active
+                %span.glyphicon.glyphicon-home
+                Remote
+              %li.list-group-item Spec and Generate Profile module
+              %li.list-group-item UT for Profile
+        .row
+          .col-xs-12
+            %h4 Week 2 (5th October — 11th October 2014)
+          .schedule-class.col-xs-12.col-lg-3.col-sm-10.col-md-8
+            %ul.list-group
+              %li.list-group-item.active
+                %span.glyphicon.glyphicon-user
+                On-site 
+              %li.list-group-item Source Code Management with Git
+              %li.list-group-item Web App Deployment with Heroku
+              %li.list-group-item Partials in Rails
+          .schedule-class.col-xs-12.col-lg-3.col-sm-10.col-md-8
+            %ul.list-group
+              %li.list-group-item.active
+                %span.glyphicon.glyphicon-home
+                Remote
+              %li.list-group-item Separation of app layout into partials
+              %li.list-group-item Deployment of modified code to Heroku
+              %li.list-group-item Use of Git to publish and deploy code
+          .schedule-class.col-xs-12.col-lg-3.col-sm-10.col-md-8
+            %ul.list-group
+              %li.list-group-item.active
+                %span.glyphicon.glyphicon-user
+                On-site 
+              %li.list-group-item Sessions
+              %li.list-group-item User Sign-in / Sign-up / Password reset
+              %li.list-group-item Filters / Scopes (search form / listing)
+          .schedule-class.col-xs-12.col-lg-3.col-sm-10.col-md-8
+            %ul.list-group
+              %li.list-group-item.active
+                %span.glyphicon.glyphicon-home
+                Remote
+              %li.list-group-item Dynamic navigation
+              %li.list-group-item UT for sign in
+              %li.list-group-item UT for sign-up
+              %li.list-group-item UT for filters/scopes
 
-      %table.table.table-striped.table-bordered#schedule
-        %tr
-          %td.divider{colspan: 2}
-            %h4 Programmer Finishing School Schedule
+        .row
+          .col-xs-12
+            %h4 Week 3 (October 12th — 18th October 2014)
+          .schedule-class.col-xs-12.col-lg-3.col-sm-10.col-md-8
+            %ul.list-group
+              %li.list-group-item.active
+                %span.glyphicon.glyphicon-user
+                On-site 
+              %li.list-group-item Mailers
+              %li.list-group-item Set up and integrate SendGrid
+          .schedule-class.col-xs-12.col-lg-3.col-sm-10.col-md-8
+            %ul.list-group
+              %li.list-group-item.active
+                %span.glyphicon.glyphicon-home
+                Remote
+              %li.list-group-item Complete mailers for:
+              %li.list-group-item Sign-up
+              %li.list-group-item Password reset
+              %li.list-group-item Generic notifications
+          .schedule-class.col-xs-12.col-lg-3.col-sm-10.col-md-8
+            %ul.list-group
+              %li.list-group-item.active
+                %span.glyphicon.glyphicon-user
+                On-site 
+              %li.list-group-item Bootstrap
+              %li.list-group-item Grid layout
+              %li.list-group-item Components
+              %li.list-group-item Customising Bootstrap
+          .schedule-class.col-xs-12.col-lg-3.col-sm-10.col-md-8
+            %ul.list-group
+              %li.list-group-item.active
+                %span.glyphicon.glyphicon-home
+                Remote
+              %li.list-group-item Implementation of Bootstrap
 
-        %tr
-          %td.divider{colspan: 2}
-            %b Month 1
+        .row
+          .col-xs-12
+            %h4 Week 4 (October 19th — 25th October 2014)
+          .schedule-class.col-xs-12.col-lg-3.col-sm-10.col-md-8
+            %ul.list-group
+              %li.list-group-item.active
+                %span.glyphicon.glyphicon-user
+                On-site 
+              %li.list-group-item Nested forms
+              %li.list-group-item Advanced partials
+              %li.list-group-item Database associations
+          .schedule-class.col-xs-12.col-lg-3.col-sm-10.col-md-8
+            %ul.list-group
+              %li.list-group-item.active
+                %span.glyphicon.glyphicon-home
+                Remote
+              %li.list-group-item Search Profiles (multi-table)
+              %li.list-group-item UT for DB associations
+          .schedule-class.col-xs-12.col-lg-3.col-sm-10.col-md-8
+            %ul.list-group
+              %li.list-group-item.active
+                %span.glyphicon.glyphicon-user
+                On-site 
+              %li.list-group-item Roles
+              %li.list-group-item Advanced RSpec
+              %li.list-group-item Advanced debugging techniques
+          .schedule-class.col-xs-12.col-lg-3.col-sm-10.col-md-8
+            %ul.list-group
+              %li.list-group-item.active
+                %span.glyphicon.glyphicon-home
+                Remote
+              %li.list-group-item UT for API/external services
+              %li.list-group-item UT for more complex validations
+              %li.list-group-item UT for roles
+              %li.list-group-item Implementation of Roles to separate users / AC
 
-        %tr
-          %td
-            %b Week 1
-            %br
-            29th September &mdash; 3rd October 2014
-          %td
-            %ul
-              %li Install Ruby on Rails + development environment
-              %li Introduction to Git version control and Heroku
-              %li Introduction to Rails MVC
-              %li Development planning
-              %li Introduction to the Kanban method of development management using Trello
-              %li Test Driven Development with Rspec + creation of static pages
-        %tr
-          %td
-            %b Week 2
-            %br
-            5th October &mdash; 11th October 2014
-          %td
-            %ul
-              %li Introduction to Ruby
-              %li Layouts, Bootstrap, CSS and Haml
-              %li More Rspec testing
-              %li Databases, models and migrations (and tests)
+        .row
+          .col-xs-12
+            %h4 Week 5 (October 26th — November 1st 2014)
+          .schedule-class.col-xs-12.col-lg-3.col-sm-10.col-md-8
+            %ul.list-group
+              %li.list-group-item.active
+                %span.glyphicon.glyphicon-user
+                On-site 
+              %li.list-group-item Geolocation
+              %li.list-group-item Google Maps (embed)
+              %li.list-group-item Google Maps (Reverse geo-coding)
+              %li.list-group-item Latitude/Longitude handling (DB)
+          .schedule-class.col-xs-12.col-lg-3.col-sm-10.col-md-8
+            %ul.list-group
+              %li.list-group-item.active
+                %span.glyphicon.glyphicon-home
+                Remote
+              %li.list-group-item Implementation of Geolocation
+              %li.list-group-item Implementation of Google Maps
+              %li.list-group-item Implementation of Lat/Long handling
+          .schedule-class.col-xs-12.col-lg-3.col-sm-10.col-md-8
+            %ul.list-group
+              %li.list-group-item.active
+                %span.glyphicon.glyphicon-user
+                On-site 
+              %li.list-group-item Single Table Inheritance (STI)
+          .schedule-class.col-xs-12.col-lg-3.col-sm-10.col-md-8
+            %ul.list-group
+              %li.list-group-item.active
+                %span.glyphicon.glyphicon-home
+                Remote
+              %li.list-group-item Usage of STI
+              %li.list-group-item Completion of Google Maps / Geolocation integration
 
-        %tr
-          %td
-            %b Week 3
-            %br
-            October 12th &mdash; 18th October 2014
-          %td
-            %ul
-              %li Rails debugging and creating factories for tests
-              %li User sign in, sign up, and sign out; a more in-depth look at Rails models
-              %li Updating, showing and deleting users. Learning to use partials.
+        .row
+          .col-xs-12
+            %h4 Week 6 (November 2nd — November 8th 2014)
+          .schedule-class.col-xs-12.col-lg-3.col-sm-10.col-md-8
+            %ul.list-group
+              %li.list-group-item.active
+                %span.glyphicon.glyphicon-user
+                On-site 
+              %li.list-group-item File attachments
+              %li.list-group-item Image thumbnails
+          .schedule-class.col-xs-12.col-lg-3.col-sm-10.col-md-8
+            %ul.list-group
+              %li.list-group-item.active
+                %span.glyphicon.glyphicon-home
+                Remote
+              %li.list-group-item File attachments and Image thumbnailing integration
+          .schedule-class.col-xs-12.col-lg-3.col-sm-10.col-md-8
+            %ul.list-group
+              %li.list-group-item.active
+                %span.glyphicon.glyphicon-user
+                On-site 
+              %li.list-group-item PDF Generation with Prawn
+              %li.list-group-item Mailer attachments
+          .schedule-class.col-xs-12.col-lg-3.col-sm-10.col-md-8
+            %ul.list-group
+              %li.list-group-item.active
+                %span.glyphicon.glyphicon-home
+                Remote
+              %li.list-group-item Integration of PDF generation
+              %li.list-group-item Mailers with PDFs attached
 
-        %tr
-          %td
-            %b Week 4
-            %br
-            October 19th &mdash; 25th October 2014
-          %td
-            %ul
-              %li Validating form inputs
-              %li Nested forms
-              %li A more complete User model with Devise
+        .row
+          .col-xs-12
+            %h4 Week 7 (November 9th — November 15th 2014)
+          .schedule-class.col-xs-12.col-lg-3.col-sm-10.col-md-8
+            %ul.list-group
+              %li.list-group-item.active
+                %span.glyphicon.glyphicon-user
+                On-site 
+              %li.list-group-item Payment Gateway Integration (Part 1)
+          .schedule-class.col-xs-12.col-lg-3.col-sm-10.col-md-8
+            %ul.list-group
+              %li.list-group-item.active
+                %span.glyphicon.glyphicon-home
+                Remote
+              %li.list-group-item Implementation of Payment Gateway (Part 1)
+          .schedule-class.col-xs-12.col-lg-3.col-sm-10.col-md-8
+            %ul.list-group
+              %li.list-group-item.active
+                %span.glyphicon.glyphicon-user
+                On-site 
+              %li.list-group-item Payment Gateway Integration (Part 2)
+          .schedule-class.col-xs-12.col-lg-3.col-sm-10.col-md-8
+            %ul.list-group
+              %li.list-group-item.active
+                %span.glyphicon.glyphicon-home
+                Remote
+              %li.list-group-item Implementation of Payment Gateway (Part 2)
 
-        %tr
-          %td.divider{colspan: 2}
-            %b Month 2
+        .row
+          .col-xs-12
+            %h4 Week 8 (November 16th — November 22nd 2014)
+          .schedule-class.col-xs-12.col-lg-3.col-sm-10.col-md-8
+            %ul.list-group
+              %li.list-group-item.active
+                %span.glyphicon.glyphicon-user
+                On-site 
+              %li.list-group-item Private alpha
+              %li.list-group-item Polishing of core functionality
 
-        %tr
-          %td
-            %b Week 5 & 6
-            %br
-            October 26th &mdash; November 8th 2014
-          %td
-            %ul
-              %li Remote collaborative development
-              %li Check in with group/co-ordinator every 2 days (Online)
-              %li More Extensive testing
-              %li Polishing of core funcions and designs
-              %li Additional Gems for specific functions (based on project requirements)
+        .row
+          .col-xs-12
+            %h4 Week 9 (November 23rd — November 29th 2014)
+          .schedule-class.col-xs-12.col-lg-3.col-sm-10.col-md-8
+            %ul.list-group
+              %li.list-group-item.active
+                %span.glyphicon.glyphicon-user
+                On-site
+              %li.list-group-item UX / UI Polish and Clean-Up
 
-        %tr
-          %td
-            %b Week 7
-            %br
-            November 9th &mdash; November 23rd 2014
-          %td
-            %ul
-              %li Internal Alpha 
-              %li Debugging and Testing
-
-        %tr
-          %td
-            %b Week 8
-            %br
-            November 24th &mdash; November 30th 2014
-          %td
-            %ul
-              %li Private Beta
-
-        %tr
-          %td.divider{colspan: 2}
-            %b Month 3
-
-        %tr
-          %td
-            %b Week 9-11
-            %br
-            December 1st &mdash; December 21st 2014
-          %td
-            %ul
-              %li Design Update / UX Polish
-              %li Open Beta
-
-        %tr
-          %td
-            %b Week 12
-            %br
-            December 22nd &mdash; December 31st 2014
-          %td
-            %ul
-              %li v1.0
-              %li Students can now fork their application for their Final Year Project
+        .row
+          .col-xs-12
+            %h4 Week 10-12 (November 30th — December 31st 2014)
+          .schedule-class.col-xs-12.col-lg-3.col-sm-10.col-md-8
+            %ul.list-group
+              %li.list-group-item.active
+                %span.glyphicon.glyphicon-user
+                Remote
+              %li.list-group-item Beta Testing
+              %li.list-group-item v1.0 Deployed
