@@ -1,7 +1,62 @@
 .container
   .row.center
     .col-xs-12.page-header
-      %h2 What we'll be doing
+      %h2 How this is going to work
+
+      .container.program-schedule-description.text-left
+        .row
+          .col-xs-12.col-lg-8.col-lg-offset-2.col-md-10.col-md-offset-1
+            %p.lead
+              Participants will be working with us to build a real-world web application on a part-time basis for 
+              %strong.text-danger
+                12 weeks
+              , where each week participants will receive 
+              %strong.text-primary
+                8 hours 
+              of hands on training (broken up into 
+              %strong.text-success
+                two sessions 
+              of 
+              %strong.text-warning
+                4 hours each
+              ) at our training facility at 
+              %strong.text-info
+                Makespace in SS2. 
+            %p
+              Working in teams lead by a senior developer, participants will be equipped with industry standard tools and frameworks to design, develop and deploy a production ready app.
+            %p
+              We have specially designed this program to account for the busy schedule of students in University, thus participants may simply choose the most convenient slot that fits their schedule. A typical week is divided into 12 slots (2 slots a day - morning and afternoon, Monday to Saturday) of 4 hours each. 
+
+  .row.center
+    .col-xs-12.page-header
+      %h2 Available Slots
+      .container.schedule.text-left
+        .row
+
+          - days = %w(Monday Tuesday Wednesday Thursday Friday Saturday)
+          - days.each do |day|
+
+            .schedule-class.col-xs-6.col-lg-2.col-sm-4.col-md-2
+              %ul.list-group
+                %li.list-group-item.active
+                  %span.glyphicon.glyphicon-user
+                  = day
+                %li.list-group-item
+                  %sup
+                    9.00 am - 1.00 pm
+                  %br
+                  Morning
+                %li.list-group-item 
+                  %sup
+                    2.00 pm - 6.00 pm
+                  %br
+                  Afternoon
+
+   
+ 
+  .row.center
+    .col-xs-12.page-header
+      %h2 What we'll be building (and learning)
       / <iframe src="https://www.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=rt1q6ca6olmm59vrechong8l68%40group.calendar.google.com&amp;color=%2328754E&amp;ctz=Asia%2FKuala_Lumpur" style=" border-width:0 " width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
       .container.schedule.text-left
