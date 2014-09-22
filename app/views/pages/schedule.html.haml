@@ -38,26 +38,35 @@
 
             .schedule-class.col-xs-6.col-lg-3.col-sm-4.col-md-3
               %ul.list-group
+                - time_morning = '9.00 am - 1.00 pm'
+                - time_afternoon = '2.00 pm - 6.00 pm'
+                - compulsory = false
+                - if day == 'Saturday'
+                  - time_morning = '8.00 am - 12.00 pm'
+                  - time_afternoon = '12.00 pm - 6.00 pm'
+                  - compulsory = true
+                
                 %li.list-group-item.list-group-item-success
                   %span.glyphicon.glyphicon-calendar
                   = day
                 %li.list-group-item
                   %sup
-                    9.00 am - 1.00 pm
+                    = time_morning
                   %br
                   Morning
                 %li.list-group-item 
                   %sup
-                    2.00 pm - 6.00 pm
+                    = time_afternoon
                   %br
                   Afternoon
-                  - if day == 'Saturday'
+                  - if compulsory
                     (Compulsory)
                 %li.list-group-item
                   %sup
                     8.00 pm - 12.00 am
                   %br
-                  Night
+                Night
+
           .schedule-class.col-xs-6.col-lg-3.col-sm-4.col-md-3
             %ul.list-group
               %li.list-group-item.list-group-item-success
