@@ -36,7 +36,7 @@
           - days = %w(Monday Tuesday Wednesday Thursday Friday Saturday)
           - days.each do |day|
 
-            .schedule-class.col-xs-6.col-lg-2.col-sm-4.col-md-2
+            .schedule-class.col-xs-6.col-lg-3.col-sm-4.col-md-3
               %ul.list-group
                 %li.list-group-item.list-group-item-success
                   %span.glyphicon.glyphicon-calendar
@@ -51,12 +51,14 @@
                     2.00 pm - 6.00 pm
                   %br
                   Afternoon
+                  - if day == 'Saturday'
+                    (Compulsory)
                 %li.list-group-item
                   %sup
                     8.00 pm - 12.00 am
                   %br
                   Night
-          .schedule-class.col-xs-6.col-lg-2.col-sm-4.col-md-2
+          .schedule-class.col-xs-6.col-lg-3.col-sm-4.col-md-3
             %ul.list-group
               %li.list-group-item.list-group-item-success
                 %span.glyphicon.glyphicon-calendar
