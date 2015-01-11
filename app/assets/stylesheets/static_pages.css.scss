@@ -182,3 +182,16 @@ body {
 .modal-body {
   padding: 0;
 }
+
+.modal#profile .modal-body {
+  padding: 15px;
+
+  a img {
+    width: 120px !important;
+    height: 120px !important;
+  }
+}
+
+.students a img {
+  cursor: pointer !important;
+}

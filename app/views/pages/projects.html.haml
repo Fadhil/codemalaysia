@@ -1,0 +1,174 @@
+.container
+  .row
+    .col-xs-12.page-header
+      %h1 Projects
+      %p Some description goes here. Maybe even a list of the projects to click on:
+      %ul
+        %li
+          %a{href: '#d2dd'}Door 2 Door Doctor
+        %li
+          %a{href: '#fastpr'}FastPR
+        %li
+          %a{href: '#magicbeans'}MagicBeans
+        %li
+          %a{href: '#skillcounter'}SkillCounter
+
+
+  .row.project
+    .col-xs-12
+      = image_tag 'd2dd-logo-small.png', class: 'pull-right'
+
+      %h3#d2dd
+        Door2DoorDoctor
+        %small Health Care at Your Doorstep
+
+      %p We specialize in the provision of services make dealing with medical issues a little more easier by providing high quality customized services ranging from Non-Emergency Transportation, Consultation, Doctor House Calls to provision of Physio sessions at home and even Confinement lady services.
+  .row.students
+    .col-xs-4
+      .media
+        %a.media-left.media-middle.pull-left{'data-toggle'=>"modal", 'data-target'=>"#profile"}
+          %img{src: "holder.js/64x64"}
+        .media-body
+          %h4.media-heading Breena Theseira
+          %p
+            %i Asia Pacific University
+
+          .hidden
+            %p
+              %b My contribution &mdash;
+              My contribution was such and such, and this and that. I also built the thingamajig and so on.
+            %p
+              %b What I'm looking for &mdash;
+              I'm looking to meet awesome programmers and cool people, and maybe travel a little.
+            %p
+              %b My programmer superpower &mdash;
+              I can find bugs, and kill 'em. Fast.
+      .media
+        %a.media-left.media-middle.pull-left{'data-toggle'=>"modal", 'data-target'=>"#profile"}
+          %img{src: "holder.js/64x64"}
+        .media-body
+          %h4.media-heading Grace Tee Hui En
+          %p
+            %i Asia Pacific University
+
+          .hidden
+            %p
+              %b My contribution &mdash;
+              My contribution was such and such, and this and that. I also built the thingamajig and so on.
+            %p
+              %b What I'm looking for &mdash;
+              I'm looking to meet awesome programmers and cool people, and maybe travel a little.
+            %p
+              %b My programmer superpower &mdash;
+              I can find bugs, and kill 'em. Fast.
+
+      .media
+        %a.media-left.media-middle.pull-left{'data-toggle'=>"modal", 'data-target'=>"#profile"}
+          %img{src: "holder.js/64x64"}
+        .media-body
+          %h4.media-heading Tan Chin Loong
+          %p
+            %i University Malaya
+
+          .hidden
+            %p
+              %b My contribution &mdash;
+              My contribution was such and such, and this and that. I also built the thingamajig and so on.
+            %p
+              %b What I'm looking for &mdash;
+              I'm looking to meet awesome programmers and cool people, and maybe travel a little.
+            %p
+              %b My programmer superpower &mdash;
+              I can find bugs, and kill 'em. Fast.
+
+    .col-xs-4
+      .media
+        %a.media-left.media-middle.pull-left{'data-toggle'=>"modal", 'data-target'=>"#profile"}
+          %img{src: "holder.js/64x64"}
+        .media-body
+          %h4.media-heading Enson Lau Chun Khye
+          %p
+            %i Asia Pacific University
+
+          .hidden
+            %p
+              %b My contribution &mdash;
+              My contribution was such and such, and this and that. I also built the thingamajig and so on.
+            %p
+              %b What I'm looking for &mdash;
+              I'm looking to meet awesome programmers and cool people, and maybe travel a little.
+            %p
+              %b My programmer superpower &mdash;
+              I can find bugs, and kill 'em. Fast.
+
+      .media
+        %a.media-left.media-middle.pull-left{'data-toggle'=>"modal", 'data-target'=>"#profile"}
+          %img{src: "holder.js/64x64"}
+        .media-body
+          %h4.media-heading Marco Lim Choon Yun
+          %p
+            %i Asia Pacific University
+
+          .hidden
+            %p
+              %b My contribution &mdash;
+              My contribution was such and such, and this and that. I also built the thingamajig and so on.
+            %p
+              %b What I'm looking for &mdash;
+              I'm looking to meet awesome programmers and cool people, and maybe travel a little.
+            %p
+              %b My programmer superpower &mdash;
+              I can find bugs, and kill 'em. Fast.
+
+    .col-xs-4
+      .media
+        %a.media-left.media-middle.pull-left{'data-toggle'=>"modal", 'data-target'=>"#profile"}
+          %img{src: "holder.js/64x64"}
+        .media-body
+          %h4.media-heading Tony Moey Seng Leong
+          %p
+            %i Monash University
+
+          .hidden
+            %p
+              %b My contribution &mdash;
+              My contribution was such and such, and this and that. I also built the thingamajig and so on.
+            %p
+              %b What I'm looking for &mdash;
+              I'm looking to meet awesome programmers and cool people, and maybe travel a little.
+            %p
+              %b My programmer superpower &mdash;
+              I can find bugs, and kill 'em. Fast.
+
+      .media
+        %a.media-left.media-middle.pull-left{'data-toggle'=>"modal", 'data-target'=>"#profile"}
+          %img{src: "holder.js/64x64"}
+        .media-body
+          %h4.media-heading Leong Chin Poh
+          %p
+            %i University Malaya
+
+          .hidden
+            %p
+              %b My contribution &mdash;
+              My contribution was such and such, and this and that. I also built the thingamajig and so on.
+            %p
+              %b What I'm looking for &mdash;
+              I'm looking to meet awesome programmers and cool people, and maybe travel a little.
+            %p
+              %b My programmer superpower &mdash;
+              I can find bugs, and kill 'em. Fast.
+
+
+.modal.fade#profile{role: :dialog, "aria-hidden" => :true}
+  .modal-dialog.modal-md
+    .modal-content
+      .modal-header
+        %button{:type => :button, :class => :close, "data-dismiss" => :modal}
+          %span{"aria-hidden" => :true} &times;
+          %span.sr-only Close
+        %h4.modal-title Profile
+      .modal-body
+      .modal-footer
+
+%br.clearfix
