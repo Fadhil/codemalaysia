@@ -37,9 +37,10 @@
           .hidden
             %p
               %b How long before you graduate?
+
               - finish_time = start_time + 18.months
               %p
-                = distance_of_time_in_words(start_time, finish_time).titleize
+                = "In " + distance_of_time_in_words(start_time, finish_time)#.titleize
             %p
               %b Whats next, what do you see yourself doing with your life after you graduate?
               
@@ -61,24 +62,65 @@
 
               %p
                 Oh and I think that some basics about Javascripts should be included as well."
+            %p
+              %b What are your aspirations?
+              %p
+                %p
+                  I want to continue building stuff (code, preferably, but there might be other physical projects too) and travel the world at the same time. I'd want to live with simplicity; just like the main characters in the travelling show ""Two Greedy Italians""... link if haven't heard of them: https://www.youtube.com/watch?v=WvZ1w_oPvJk
+                %p
+                  I would also want to be part of projects (not necessarily software-based) that improves the lives of humans better and the environment.
+                %p
+                  I want to learn Japanese, Thai, Spanish and Portuguese as well; either because I have a particular interest in the language, or it's part of my heritage.
+                %p
+                  Another aspiration I have is to experience university life overseas... but it's not really something that I would undertake super soon. One of those ""might do, but not set in stone""."
+            %p
+              %b What would you say to someone that is interested to join this program
+              %p
+                %p
+                  You need to make sure you can commit 3 months of your time into learning and building projects, or else, don't apply. Wait for the next intake. On the first day, come up with a simple website idea (can be static pages at first, but it would get complex as you go) and implement the lessons learnt there. 
+                %p
+                  Start self-learning about Git. If you have only ever used Windows your whole life, start dual-booting your PC to have Linux. It's AWESOME (especially Ubuntu, but I've only had Ubuntu so far).""
+                %p
+                  University students in the first or second year should give this program a shot. Also, students who have just graduated from school or are seeking courses in web development to learn latest/industry tools used by professionals. Lastly, anyone who has a deep deep desire to learn how webpages should be interested to join this program."
       .media
         %a.media-left.media-middle.pull-left{'data-toggle'=>"modal", 'data-target'=>"#profile"}
           %img{src: "holder.js/64x64"}
         .media-body
           %h4.media-heading Grace Tee Hui En
-          %p
-            %i Asia Pacific University
-
           .hidden
             %p
-              %b My contribution &mdash;
-              My contribution was such and such, and this and that. I also built the thingamajig and so on.
+              %b How long before you graduate?
+
+              - finish_time = start_time + 18.months
+              %p
+                = "In " + distance_of_time_in_words(start_time, finish_time)#.titleize
             %p
-              %b What I'm looking for &mdash;
-              I'm looking to meet awesome programmers and cool people, and maybe travel a little.
+              %b Whats next, what do you see yourself doing with your life after you graduate?
+              
+              %p
+                I would most probably be looking for a company job as a transition from university into the working field and gain experience.
+
+              %p
+                Once I feel confident or when there is an opportunity, I would take other freelancing jobs on the side. I would also very much like to be a part of a startup company.
             %p
-              %b My programmer superpower &mdash;
-              I can find bugs, and kill 'em. Fast.
+              %b What did you think about the program?
+              %p
+                It was inspiring and an eye opener to know the work flow and process involved in developing a mobile application. It was an opportunity to make valuable connections. Moreover, the track was at a good pace where it challenged us but was not too overwhelming. 
+            %p
+              %b What are your aspirations?
+              %p
+                %p
+                  I would like to develop a application that would impact people and the environment.
+                %p
+                  Travel across the world and code along side people from other cultures and background.
+                %p
+                  Volunteer teaching disadvantaged people and inspire them to achieve more
+                
+            %p
+              %b What would you say to someone that is interested to join this program
+              %p
+                %p
+                  Definitely something you won't want to miss if you are able to commit your time. Expect it to be challenging but fun. I would think all final year students and even fresh graduates would be interested to join this program.
 
       .media
         %a.media-left.media-middle.pull-left{'data-toggle'=>"modal", 'data-target'=>"#profile"}
@@ -90,14 +132,52 @@
 
           .hidden
             %p
-              %b My contribution &mdash;
-              My contribution was such and such, and this and that. I also built the thingamajig and so on.
+              %b How long before you graduate?
+
+              - finish_time = start_time + 18.months
+              %p
+                = "In " + distance_of_time_in_words(start_time, finish_time)#.titleize
             %p
-              %b What I'm looking for &mdash;
-              I'm looking to meet awesome programmers and cool people, and maybe travel a little.
+              %b Whats next, what do you see yourself doing with your life after you graduate?
+              
+              %p
+                #Answers
+
+              %p
+                #Answers
+
+              %p
+                #Answers
             %p
-              %b My programmer superpower &mdash;
-              I can find bugs, and kill 'em. Fast.
+              %b What did you think about the program?
+              %p
+                #Answers
+
+              %p
+                #Answers
+              %p
+                #Answers
+            %p
+              %b What are your aspirations?
+              %p
+                %p
+                  #Answers
+                %p
+                  #Answers
+                %p
+                  #Answers
+                %p
+                  #Answers
+            %p
+              %b What would you say to someone that is interested to join this program
+              %p
+                %p
+                  #Answers
+                %p
+                  #Answers
+                %p
+                  #Answers
+
 
     .col-xs-4
       .media
@@ -110,14 +190,51 @@
 
           .hidden
             %p
-              %b My contribution &mdash;
-              My contribution was such and such, and this and that. I also built the thingamajig and so on.
+              %b How long before you graduate?
+
+              - finish_time = start_time + 18.months
+              %p
+                = "In " + distance_of_time_in_words(start_time, finish_time)#.titleize
             %p
-              %b What I'm looking for &mdash;
-              I'm looking to meet awesome programmers and cool people, and maybe travel a little.
+              %b Whats next, what do you see yourself doing with your life after you graduate?
+              
+              %p
+                #Answers
+
+              %p
+                #Answers
+
+              %p
+                #Answers
             %p
-              %b My programmer superpower &mdash;
-              I can find bugs, and kill 'em. Fast.
+              %b What did you think about the program?
+              %p
+                #Answers
+
+              %p
+                #Answers
+              %p
+                #Answers
+            %p
+              %b What are your aspirations?
+              %p
+                %p
+                  #Answers
+                %p
+                  #Answers
+                %p
+                  #Answers
+                %p
+                  #Answers
+            %p
+              %b What would you say to someone that is interested to join this program
+              %p
+                %p
+                  #Answers
+                %p
+                  #Answers
+                %p
+                  #Answers
 
       .media
         %a.media-left.media-middle.pull-left{'data-toggle'=>"modal", 'data-target'=>"#profile"}
@@ -129,14 +246,51 @@
 
           .hidden
             %p
-              %b My contribution &mdash;
-              My contribution was such and such, and this and that. I also built the thingamajig and so on.
+              %b How long before you graduate?
+
+              - finish_time = start_time + 18.months
+              %p
+                = "In " + distance_of_time_in_words(start_time, finish_time)#.titleize
             %p
-              %b What I'm looking for &mdash;
-              I'm looking to meet awesome programmers and cool people, and maybe travel a little.
+              %b Whats next, what do you see yourself doing with your life after you graduate?
+              
+              %p
+                #Answers
+
+              %p
+                #Answers
+
+              %p
+                #Answers
             %p
-              %b My programmer superpower &mdash;
-              I can find bugs, and kill 'em. Fast.
+              %b What did you think about the program?
+              %p
+                #Answers
+
+              %p
+                #Answers
+              %p
+                #Answers
+            %p
+              %b What are your aspirations?
+              %p
+                %p
+                  #Answers
+                %p
+                  #Answers
+                %p
+                  #Answers
+                %p
+                  #Answers
+            %p
+              %b What would you say to someone that is interested to join this program
+              %p
+                %p
+                  #Answers
+                %p
+                  #Answers
+                %p
+                  #Answers
 
     .col-xs-4
       .media
@@ -149,15 +303,52 @@
 
           .hidden
             %p
-              %b My contribution &mdash;
+              %b How long before you graduate?
 
-              distance_of_time_in_words(Date.new(2015,1,10), )
+              - finish_time = start_time + 18.months
+              %p
+                = "In " + distance_of_time_in_words(start_time, finish_time)#.titleize
             %p
-              %b What I'm looking for &mdash;
-              I'm looking to meet awesome programmers and cool people, and maybe travel a little.
+              %b Whats next, what do you see yourself doing with your life after you graduate?
+              
+              %p
+                #Answers
+
+              %p
+                #Answers
+
+              %p
+                #Answers
             %p
-              %b My programmer superpower &mdash;
-              I can find bugs, and kill 'em. Fast.
+              %b What did you think about the program?
+              %p
+                #Answers
+
+              %p
+                #Answers
+              %p
+                #Answers
+            %p
+              %b What are your aspirations?
+              %p
+                %p
+                  #Answers
+                %p
+                  #Answers
+                %p
+                  #Answers
+                %p
+                  #Answers
+            %p
+              %b What would you say to someone that is interested to join this program
+              %p
+                %p
+                  #Answers
+                %p
+                  #Answers
+                %p
+                  #Answers
+
 
       .media
         %a.media-left.media-middle.pull-left{'data-toggle'=>"modal", 'data-target'=>"#profile"}
@@ -169,14 +360,52 @@
 
           .hidden
             %p
-              %b My contribution &mdash;
-              My contribution was such and such, and this and that. I also built the thingamajig and so on.
+              %b How long before you graduate?
+
+              - finish_time = start_time + 18.months
+              %p
+                = "In " + distance_of_time_in_words(start_time, finish_time)#.titleize
             %p
-              %b What I'm looking for &mdash;
-              I'm looking to meet awesome programmers and cool people, and maybe travel a little.
+              %b Whats next, what do you see yourself doing with your life after you graduate?
+              
+              %p
+                #Answers
+
+              %p
+                #Answers
+
+              %p
+                #Answers
             %p
-              %b My programmer superpower &mdash;
-              I can find bugs, and kill 'em. Fast.
+              %b What did you think about the program?
+              %p
+                #Answers
+
+              %p
+                #Answers
+              %p
+                #Answers
+            %p
+              %b What are your aspirations?
+              %p
+                %p
+                  #Answers
+                %p
+                  #Answers
+                %p
+                  #Answers
+                %p
+                  #Answers
+            %p
+              %b What would you say to someone that is interested to join this program
+              %p
+                %p
+                  #Answers
+                %p
+                  #Answers
+                %p
+                  #Answers
+
 
 
 .modal.fade#profile{role: :dialog, "aria-hidden" => :true}
