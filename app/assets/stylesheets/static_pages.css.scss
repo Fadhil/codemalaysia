@@ -195,3 +195,12 @@ body {
 .students a img {
   cursor: pointer !important;
 }
+
+.individual-profile a.media-left img {
+  width: 120px !important;
+  height: 120px !important;
+}
+
+.row.students .extended {
+  @extend .hidden;
+}

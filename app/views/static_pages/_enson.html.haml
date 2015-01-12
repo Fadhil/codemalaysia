@@ -1,0 +1,57 @@
+- start_time = Date.new(2015,1,10)
+.media
+  %a.media-left.media-middle.pull-left{href: '/students/enson'}
+    %img{src: "holder.js/64x64"}
+  .media-body
+    %h4.media-heading
+      %a{href: '/students/enson'} Enson Lau Chun Khye
+    %p
+      %i Asia Pacific University
+
+    .extended
+      %p
+        %b How long before you graduate?
+
+        - finish_time = start_time + 18.months
+        %p
+          = "In " + distance_of_time_in_words(start_time, finish_time)#.titleize
+      %p
+        %b Whats next, what do you see yourself doing with your life after you graduate?
+        
+        %p
+          #Answers
+
+        %p
+          #Answers
+
+        %p
+          #Answers
+      %p
+        %b What did you think about the program?
+        %p
+          #Answers
+
+        %p
+          #Answers
+        %p
+          #Answers
+      %p
+        %b What are your aspirations?
+        %p
+          %p
+            #Answers
+          %p
+            #Answers
+          %p
+            #Answers
+          %p
+            #Answers
+      %p
+        %b What would you say to someone that is interested to join this program
+        %p
+          %p
+            #Answers
+          %p
+            #Answers
+          %p
+            #Answers

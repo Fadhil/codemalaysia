@@ -6,7 +6,8 @@ Codemalaysia::Application.routes.draw do
   get "learn"                 => 'high_voltage/pages#show', id: "learn"
   get 'schedule'              => 'high_voltage/pages#show', id: 'schedule'
   get 'shedule'               => 'high_voltage/pages#show', id: 'schedule'
-  get 'projects'               => 'high_voltage/pages#show', id: 'projects'
+  get 'projects'              => 'high_voltage/pages#show', id: 'projects'
+  get 'students/:id'          => 'static_pages#students', as: 'students'
 
   resource :contact_us, only: [ :create]
   root to: 'high_voltage/pages#show', id: 'index'
